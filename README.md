@@ -99,7 +99,6 @@ kali/
 ├── docker-compose.yml   # Configuration Docker
 ├── entrypoint.sh        # Script d'initialisation du shell
 ├── shared/              # Dossier partagé hôte ↔ conteneur
-└── README.md
 ```
 
 ---
@@ -202,7 +201,6 @@ kali/
 ├── docker-compose.yml   # Docker configuration
 ├── entrypoint.sh        # Shell initialization script
 ├── shared/              # Shared folder host ↔ container
-└── README.md
 ```
 
 ---
