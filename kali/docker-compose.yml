@@ -1,0 +1,20 @@
+services:
+  kali:
+    image: kalilinux/kali-rolling
+    container_name: kali-cli
+    entrypoint: /entrypoint.sh
+    stdin_open: true
+    tty: true
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    environment:
+      - TERM=xterm-256color
+    volumes:
+      - kali-data:/root
+      - ./shared:/root/shared
+      - ./entrypoint.sh:/entrypoint.sh
+    restart: unless-stopped
+
+volumes:
+  kali-data:
