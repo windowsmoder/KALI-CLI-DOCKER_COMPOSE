@@ -28,7 +28,13 @@
 
 ### 1. Télécharger le dossier `kali` depuis GitHub et extraire le dossier kali
 
-### 2. Rendre le script exécutable
+### 2. Ouvrir un terminal et accéder au dossier `kali`
+
+```bash
+cd /chemin/vers/kali
+```
+
+### 3. Rendre le script exécutable
 
 ```bash
 chmod +x entrypoint.sh
@@ -99,6 +105,7 @@ kali/
 ├── docker-compose.yml   # Configuration Docker
 ├── entrypoint.sh        # Script d'initialisation du shell
 ├── shared/              # Dossier partagé hôte ↔ conteneur
+└── README.md
 ```
 
 ---
@@ -128,9 +135,15 @@ kali/
 
 ## 🚀 Installation
 
-### 1. Download the `kali` folder from GitHub and extract de kali folder
+### 1. Download the `kali` folder from GitHub and xtract the kali folder
 
-### 2. Make the script executable
+### 2. Open a terminal and navigate to the `kali` folder
+
+```bash
+cd /path/to/kali
+```
+
+### 3. Make the script executable
 
 ```bash
 chmod +x entrypoint.sh
@@ -201,6 +214,7 @@ kali/
 ├── docker-compose.yml   # Docker configuration
 ├── entrypoint.sh        # Shell initialization script
 ├── shared/              # Shared folder host ↔ container
+└── README.md
 ```
 
 ---
