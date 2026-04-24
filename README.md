@@ -26,7 +26,7 @@
 
 ## 🚀 Installation
 
-### 1. Télécharger le dossier `kali` depuis GitHub et le placer où vous voulez
+### 1. Télécharger le dossier `kali` depuis GitHub et extraire le dossier kali
 
 ### 2. Rendre le script exécutable
 
@@ -128,7 +128,7 @@ kali/
 
 ## 🚀 Installation
 
-### 1. Download the `kali` folder from GitHub and place it wherever you want
+### 1. Download the `kali` folder from GitHub and extract de kali folder
 
 ### 2. Make the script executable
 
